@@ -1,0 +1,175 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#container #left-side{
+    height:auto;
+    width: 28%;
+    
+}
+#container #right-side{
+    height:auto;
+    width: 68%;
+    padding:1%;
+}
+.profile-pic img{
+    height:30vh;
+    width:15vw;
+    border-radius: 50%;;
+    box-shadow:50% #888888;
+    margin-top: 3%;
+}
+.profile-pic{
+    text-align: center;
+}
+#left-side div{
+    margin-left: 3%;
+}
+#left-side div ul li{
+    margin-bottom: 1.5%;
+}
+#left-side{
+    background: hsla(221, 45%, 73%, 1);
+
+    background: linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(221, 45%, 73%, 1) 0%, hsla(220, 78%, 29%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BAFD9", endColorstr="#103783", GradientType=1 );
+
+    color: white;
+}
+#name h1{
+font-size: 600%;
+}
+#socialmedia-links a img{
+    height:2%;
+    width:2%;
+    filter: opacity(0.5) drop-shadow(0 0 whitesmoke);
+    margin: 1%;
+}
+#socialmedia-links a img:hover{
+    box-shadow: 10px 10px 8px  whitesmoke;
+}
+#socialmedia nav{
+   text-align: center;
+}
+#summary p{
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 3%;
+    padding-right: 2%;
+    line-height: 1.5em;
+}
+#education{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.education-outer-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.education-outer-div div{
+   height:auto;
+   width:49.5%;
+    
+}
+#education .education-outer-div p{
+    font-size: 1.2em;
+}
+#contact p{
+    font-size: 1.2em;
+}
+#skills ul li{
+    font-size: 1.2em;
+}
+#hobbies ul li{
+    font-size: 1.2em;
+}
+#right-side{
+    background: hsla(186, 33%, 94%, 1);
+
+background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+}
+@media (max-width:1023px){
+    #container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #container #left-side{
+       display: flex;
+        width: 100%;
+        
+    }
+    #container #right-side{
+       
+        width: 100%;
+        padding:1%;
+    }
+
+}@media(max-width:1020px){
+    #name h1{
+        /* display: none; */
+        font-size: 400%;
+    }
+}
+@media(max-width:736px){
+    #container #left-side{
+        display: flex;
+        flex-direction: column;
+         width: 100%;
+         
+     }
+     #name h1{
+        display: none;
+    }
+    .profile-pic img{
+        height:20vh;
+        width:18vw;
+        border-radius: 50%;;
+        box-shadow:50% #888888;
+        margin-top: 3%;
+    }
+}
+@media(max-width:585px){
+    .profile-pic img{
+        height:20vh;
+        width:20vw;
+        border-radius: 50%;;
+        box-shadow:50% #888888;
+        margin-top: 3%;
+    }
+}
+@media(max-width:500px){
+    .profile-pic img{
+        height:22vh;
+        width:24vw;
+        border-radius: 50%;;
+        box-shadow:50% #888888;
+        margin-top: 3%;
+    }
+}
+@media(max-width:320px){
+    .profile-pic img{
+        height:18vh;
+        width:25vw;
+        border-radius: 50%;;
+        box-shadow:50% #888888;
+        margin-top: 3%;
+    }
+}
+
